@@ -1,0 +1,48 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Image styles */
+.large-image img {
+  width: 100%; /* Take up full width */
+}
+
+.medium-image img {
+  width: 75%; /* Take up half width */
+}
+
+.small-image img {
+  width: 50px; /* Fixed width */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 1024px) {
+  .Large-image img {
+    width: 1024px; /* Adjust width for large screens */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .medium-image img {
+    width: 768px; /* Full width for medium screens */
+  }
+}
+
+  @media only screen and (max-width: 576px) {
+  .small-image img {
+    width: 576px; /* full width for small screens*/
+  }
+}
