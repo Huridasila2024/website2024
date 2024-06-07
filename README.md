@@ -125,7 +125,7 @@ nav a {
 <body>
     <nav>   
         <ul>
-            <li><a href="toys.html">HOME</a></li>  
+            <li><a href="toys.html">toys</a></li>  
             <li><a href="products.html">Products</a></li>
             <li><a href="contacts.html">Contact Us</a></li>
         
